@@ -1,0 +1,10 @@
+Action -> to perform task 
+Reducer -> how the task is to be change
+store
+view
+
+redux react-redux redux-thunk
+
+redux thunk to execute async 
+
+createStore  1 reducer, 2 initial state, middleware like thunk

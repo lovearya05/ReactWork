@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+// import {BrowserRouter, Routes, Route} from 'react-router-dom'
+// import About from './components/About';
+// import Contact from './components/Contact';
+// import Home from './components/Home';
+// import Nav from './components/Nav'
+// import Cls from './components/Cls'
+// import Text from "./components/Text";
+// import Home from "./customHook.js";
+// import Comp1 from "./useContext/Comp1";
+import Home from "./Redux/Home";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+
+    {/* <Comp1/> */}
+    
+    <Home/>
+
+      {/* <Cls/> */}
+      {/* <Text/> */}
+
+      {/* <BrowserRouter>
+        <Routes>
+          {/* <Nav/> */}
+          {/* <Route path='/' element={<Nav/>}> */}
+          {/* <Route path='Home' element={<Home/>}/> */}
+          {/* <Route path='About' element={<About/>}/> */}
+          {/* <Route path='Contact' element={<Contact/>}/> */}
+          {/* </Route> */}
+        {/* </Routes> */}
+      {/* </BrowserRouter>     */} 
+    </>
   );
 }
 
