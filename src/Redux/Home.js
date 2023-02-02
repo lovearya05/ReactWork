@@ -6,14 +6,10 @@ import {store} from './store'
 
 
 function Home() {
-    
-
-    return (
-
+  return (
     <Provider store={store}>
         <Component2/>
         <Component1/>
-    
     </Provider>  
       
   )

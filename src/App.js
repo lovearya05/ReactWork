@@ -7,21 +7,25 @@
 // import Text from "./components/Text";
 // import Home from "./customHook.js";
 // import Comp1 from "./useContext/Comp1";
-import Home from "./Redux/Home";
+// import Home from "./Redux/Home";
+// import Comp2 from "./useRef/Comp2";
+// import Comp2 from "./useRef/Comp2";
+// import Comp1 from "./useCallback/Copm1";
+
+import Reduce from "./reduce/Reduce";
+
 
 
 function App() {
   return (
-    <>
-    
 
-    {/* <Comp1/> */}
-    
-    <Home/>
-
+  // const fetch = require('node-fetch');
+<>
+    <Reduce/>
+     {/* <Comp1/> */}
+    {/* <Home/> */}
       {/* <Cls/> */}
       {/* <Text/> */}
-
       {/* <BrowserRouter>
         <Routes>
           {/* <Nav/> */}

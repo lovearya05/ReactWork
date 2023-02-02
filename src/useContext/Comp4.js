@@ -1,15 +1,13 @@
 import React, { useContext } from 'react'
+// import { context } from './Comp1'
+import {ThemeContext} from './ThemeContext'
 
 function Comp4() {
-const userCtx = useContext("")
+  const user = useContext(ThemeContext)
   return (
-    <userCtx.Consumer>
-        {userCtx}
-    </userCtx.Consumer>
-
-    // <div>
-    //   Comp4 {user}
-    // </div>
+    <>
+      component 4 {user?.email || user}
+    </>
   )
 }
 

@@ -9,6 +9,7 @@ export const inc = (amount)=>{
         )
     }
 }
+
 export const dec = (amount)=>{
     return (dispatch)=>{
         dispatch(
