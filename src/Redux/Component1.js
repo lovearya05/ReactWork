@@ -7,12 +7,15 @@ import { useDispatch } from "react-redux";
 
 const Component1 = () => {
     const dispatch = useDispatch();
-    // const action = bindActionCreators(actionCreator, dispatch);
+    const action = bindActionCreators(actionCreator, dispatch);
     
     return (
         <>
-        <button onClick={()=>{dispatch(actionCreator.inc(10))}}> + </button>
-        {/* <button onClick={()=>{action.inc(10)}}> + </button> */}
+        {/* <button onClick={()=>{dispatch(actionCreator.inc(10))}}> + </button> */}
+
+        <button onClick={()=>{action.inc(10)}}> + </button>
+
+
         <button onClick={()=>{dispatch(actionCreator.dec(10))}}> - </button>
     </>
   )
