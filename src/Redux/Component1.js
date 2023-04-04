@@ -4,7 +4,6 @@ import { bindActionCreators } from 'redux';
 import { useDispatch } from "react-redux";
 
 
-
 const Component1 = () => {
     const dispatch = useDispatch();
     const action = bindActionCreators(actionCreator, dispatch);

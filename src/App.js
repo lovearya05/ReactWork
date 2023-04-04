@@ -18,7 +18,7 @@
 
 
 import React from 'react'
-import Home from './ReduxToolkit/Home'
+import Home from './Redux/Home'
 
 function App() {
   return (
